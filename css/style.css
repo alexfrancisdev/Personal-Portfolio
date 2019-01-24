@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 .leftbar {
   background: #181818;
   width: 60px;
@@ -43,9 +45,27 @@ nav a {
   text-decoration: none;
 }
 
+.leftbar ul {
+  position: absolute;
+  bottom: 45px;
+  width: 100%;
+  display: block;
+  padding: 0;
+  text-align: center;
+  margin: 0;
+}
+
+.leftbar ul li a {
+  padding: 9px 0;
+  display: block;
+  font-size: 20px;
+  line-height: 20px;
+  color: #4d4d4e;
+}
+
 body {
   font: 300 11px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #444;
+  color: white;
   overflow: hidden;
   display: block;
 }
@@ -60,4 +80,20 @@ body {
   z-index: 1;
   background-color: #252627;
   padding-left: 60px;
+}
+
+.landing-text {
+  top: 30%;
+  right: 10%;
+  position: absolute;
+  text-align: right;
+}
+
+.landing-text h1 {
+  font-size: 165px;
+  font-weight: 700;
+}
+
+.landing-text h2 {
+  font-size: 36px
 }
