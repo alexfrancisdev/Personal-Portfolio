@@ -46,21 +46,18 @@ nav a {
 body {
   font: 300 11px/1.4 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #444;
-  background-color: #252627;
   overflow: hidden;
   display: block;
-  height: auto;
-  width: auto;
 }
 
 .container {
   width: 100%;
   will-change: contents;
-  height: 90%;
+  height: 100%;
   min-height: 566px;
   position: absolute;
-  opacity: 0;
-  top: 5%;
   margin: 0 auto;
   z-index: 1;
+  background-color: #252627;
+  padding-left: 60px;
 }
